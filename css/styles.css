@@ -96,7 +96,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
-
+/* BUTTON */
 .button {
   padding: 16px 30px;
   border-radius: 25px;
@@ -121,6 +121,24 @@ ul {
   background-color: #145e76;
 }
 
+.hero-button {
+  background-color: #094556;
+  border-radius: 30px;
+  font-family: "Schoolbell", "Inter", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.button-hero-orange {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.button-hero-orange:hover {
+  background-color: var(--brand-color-orange);
+}
+
 .main-content {
   flex-grow: 1;
 }
@@ -129,7 +147,7 @@ ul {
   background-color: var(--brand-color);
   background-image: url("../img/bg-img.jpg");
 }
-
+/* HEADER */
 .site-header {
   padding-top: 45px;
   padding-bottom: 45px;
@@ -191,6 +209,46 @@ ul {
 
 .sitenav-link:active {
   opacity: 0.6;
+}
+
+/* HERO */
+.site-hero {
+  display: flex;
+  padding-right: 0;
+  color: #fff;
+  padding-bottom: 162px;
+}
+
+.site-hero-content {
+  margin-right: -125px;
+  padding-top: 105px;
+  padding-bottom: 155px;
+  max-width: 537px;
+}
+
+.hero-heading {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.hero-text {
+  font-size: 18px;
+  line-height: 29px;
+  color: #849499;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.hero-img {
+  display: block;
+  margin-top: -91px;
+  margin-right: -160px;
+  width: 918px;
+  height: 755px;
+  object-fit: cover;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
