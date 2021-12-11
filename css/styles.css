@@ -103,6 +103,8 @@ ul {
   font-size: 18px;
   line-height: 29px;
   color: #fff;
+  cursor: pointer;
+  white-space: nowrap;
 }
 
 .button:hover {
