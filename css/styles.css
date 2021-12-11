@@ -126,6 +126,7 @@ ul {
 }
 
 .wrapper-hero-heading {
+  background-color: var(--brand-color);
   background-image: url("../img/bg-img.jpg");
 }
 
